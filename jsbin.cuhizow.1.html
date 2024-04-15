@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2024 by fetty0000 (http://jsbin.com/cuhizow/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Tulong Services</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://img.freepik.com/premium-vector/seamless-vector-banner-with-outline-cleaning-icons-laundry-sketch-pattern-home-routine-doodles_522613-441.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    header {
+      background-color: rgba(51, 51, 51, 0.8);
+      /* Background color with transparency */
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar input[type="text"] {
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .service {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px 0;
+    }
+
+    .service-item {
+      text-align: center;
+      width: 30%;
+      background-color: rgba(255, 255, 255, 0.8);
+      /* Background color for service items with transparency */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      /* Box shadow for service items */
+    }
+
+    .service-item img {
+      width: 80%;
+      border-radius: 10px;
+    }
+
+    .service-item h2,
+    .service-item p {
+      color: #000;
+      /* Font color for service titles and descriptions */
+    }
+
+    .footer {
+      background-color: rgba(51, 51, 51, 0.8);
+      /* Background color for footer with transparency */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>E-Tulong Services</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="service">
+      <div class="service-item">
+        <img src="https://st2.depositphotos.com/1496387/42171/v/450/depositphotos_421717250-stock-illustration-builder-plumbing-wrench-symbol-construction.jpg?fbclid=IwAR2UNTTIEAzhajXmQYS00sIktKgO9FCxxteMiBvf58YTyzAq1VAGId_BK9E_aem_AVtEknZHS6ydeinr7I2jKI4sey0oP8QqrkamydD7TZ1QzrO-K0kmecQSppb20bCj89UIQxevoTmadI-B5dk1Ypcr" alt="Plumbing">
+        <h2>Plumbing Services</h2>
+        <p>Professional plumbing services for all your plumbing needs.</p>
+      </div>
+      <div class="service-item">
+        <img src="https://img.freepik.com/free-vector/hand-drawn-electrician-cartoon-illustration_23-2151046712.jpg?fbclid=IwAR2kGwA_tKhv5P7FKbXXExSAPkVtR9jKQ-fmrCHdtuZAks79Z6GwL4PaNL0_aem_AVslKch6bYT1Td-rnfaW-nqUheWi7UvhTT1m5cs-LRmgwumQ0xRg5PsXqWdpbTs1wLhCwMl0E9je7rK-ESD8flQx" alt="Electrician">
+        <h2>Electrician Services</h2>
+        <p>Skilled electricians to handle all electrical installations and repairs.</p>
+      </div>
+      <div class="service-item">
+        <img src="https://clipart-library.com/new_gallery/44-448113_clean-images-in-collection-office-cleaning-images-cartoon.png?fbclid=IwAR2JlLI86Z_b7SYhvb0GDkXe1ZCYh9LExDUv1ZyTo4qst2aIcJTlU3wFygQ_aem_AVsr-TOr2LFWdTyXJTA68a-08q9GCnXZ0djkrJ-duI92eXfK0G6WJQFEHEAxpj-B8KgWqPO2uJZKTwI9DN_g1E-O" alt="Cleaning">
+        <h2>Cleaning Services</h2>
+        <p>Experienced cleaning professionals for residential and commercial cleaning.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 E-Tulong Services. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
